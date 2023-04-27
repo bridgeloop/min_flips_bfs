@@ -1,3 +1,5 @@
+// aiden@cmp.bz
+
 function flip(c) {
     switch (c) {
         case "0": return "1";
