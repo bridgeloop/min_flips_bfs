@@ -46,7 +46,7 @@ function doStep(a, seen, currMut, queue/*, prev*/) {
 }
 
 function go(a, b) {
-    if (a.length != b.length) {
+    if (a.length !== b.length) {
         throw new Error("length mismatch");
     }
 
